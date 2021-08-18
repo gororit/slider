@@ -1,0 +1,45 @@
+.slider1{
+ .swiper-wrapper{
+  padding-top:100px;
+  .swiper-slide{
+   text-align: center;
+   height:250px;
+   p{
+    font-size:2rem;
+   }
+  }
+ }
+}
+
+.slider2{
+ .swiper-wrapper{
+  padding-top:100px;
+  .swiper-slide{
+   height:200px;
+
+   table{
+    margin: 0 auto;
+    tr{
+     td{
+      font-size:1.6rem;
+      width:50%;
+
+      &:first-child{
+       text-align:left ;
+      }
+      &:last-child{
+       text-align: right;
+      }
+     }
+    }
+   }
+   div{
+    text-align: center;
+   }
+  }
+ }
+}
+
+.swiper-slide-active{
+ transform: scale(1.25);
+}
